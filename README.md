@@ -24,4 +24,4 @@ All these methods are ready to be called from the MATLAB's command line.
 
 All these methods show the value of each iteration.
 
-You should change the function in the code to the one you want to solve.
+You should change the function in the code to the one you want to solve for.
