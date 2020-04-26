@@ -15,6 +15,11 @@ In other words, the algorithms available on this repository can be used to appro
 - Newton Method.
 
 - Algorithm to plot a function.
-- Algorithm to plot two function in the same graph.
+- Algorithm to plot two functions in the same graph.
 
 
+## Notes
+
+All these methods are ready to be called from the MATLAB's command line.
+All these methods show the value of each iteration.
+You should change the function in the code to the one you want to solve.
