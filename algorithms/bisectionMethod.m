@@ -20,6 +20,8 @@ function bisectionMethod(xi, xf, tol)
     
     while(error > tol)
         
+        fprintf('x[%d] = %.12f | error = %.12f \n', i, c, error)
+        
         if (functionExpression(xi) * functionExpression(c) < 0)
             xf = c;
         else %(functionExpression(xf) * functionExpression(c) >= 0)
@@ -28,8 +30,6 @@ function bisectionMethod(xi, xf, tol)
         
         error = error / 2;
         c = (xi + xf) / 2;
-        
-        fprintf('x[%d] = %.12f | error = %.12f \n', i, c, error)
         
         i = i + 1;
     end
